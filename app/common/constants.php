@@ -1,5 +1,5 @@
-//File config hang
 <?php
+//File config hang
 define('STATUS_USER',array(
     "ACTIVE" => 1,
     "INACTIVE" => 2,
@@ -22,6 +22,11 @@ define('STATUS_COURSERQ',array(
     "ACCEPT" => 1,
     "REFUSE" => 2,
     "APPROVING" => 3,
+));
+
+define("GENDER", array(
+   "MALE" => 1,
+   "FEMALE" => 2,
 ));
 
 ?>

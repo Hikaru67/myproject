@@ -12,6 +12,7 @@ class UsersSeeder extends Seeder
      */
     public function run()
     {
+
         $data = [
             [
                 'id' => 1,
@@ -22,10 +23,10 @@ class UsersSeeder extends Seeder
                 'job' => 'no job',
                 'avatar' => '',
                 'facebook' => 'fb.me/hikaru67',
-                'gender' => 1,
+                'gender' => GENDER['MALE'],
                 'country' => 'Hà Tĩnh',
                 'role' => 'admin',
-                'status' => 1,
+                'status' => STATUS_USER["ACTIVE"],
                 'created_at' => now(),
             ],
             [
@@ -37,10 +38,10 @@ class UsersSeeder extends Seeder
                 'job' => 'no job',
                 'avatar' => '',
                 'facebook' => 'fb.me/hikaru68',
-                'gender' => 1,
+                'gender' => GENDER['MALE'],
                 'country' => 'Hà Tĩnh',
                 'role' => 'admin',
-                'status' => 1,
+                'status' => STATUS_USER["ACTIVE"],
                 'created_at' => now(),
             ],
         ];

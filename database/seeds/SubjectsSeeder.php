@@ -12,18 +12,62 @@ class SubjectsSeeder extends Seeder
      */
     public function run()
     {
-        $data = [];
-        for($i = 1; $i < 6; $i++){
-            $data[] = [
-                'id' => $i,
-                'name' => 'subject'.$i,
-                'description' => 'description subject '.$i,
+        $data = [
+            [
+                'id' => 1,
+                'name' => 'PHP',
+                'description' => 'description subject PHP',
                 'avatar' => '',
                 'status' => 1,
                 'userId' => 2,
                 'created_at' => now(),
-            ];
-        }
+            ],
+            [
+                'id' => 2,
+                'name' => 'C#',
+                'description' => 'description subject C#',
+                'avatar' => '',
+                'status' => 1,
+                'userId' => 2,
+                'created_at' => now(),
+            ],
+            [
+                'id' => 3,
+                'name' => 'Python',
+                'description' => 'description subject Python',
+                'avatar' => '',
+                'status' => 1,
+                'userId' => 2,
+                'created_at' => now(),
+            ],
+            [
+                'id' => 4,
+                'name' => 'Java',
+                'description' => 'description subject Java',
+                'avatar' => '',
+                'status' => 1,
+                'userId' => 2,
+                'created_at' => now(),
+            ],
+            [
+                'id' => 5,
+                'name' => 'Laravel',
+                'description' => 'description subject Laravel',
+                'avatar' => '',
+                'status' => 1,
+                'userId' => 2,
+                'created_at' => now(),
+            ],
+            [
+                'id' => 6,
+                'name' => 'ReactJs',
+                'description' => 'description subject ReactJs',
+                'avatar' => '',
+                'status' => 1,
+                'userId' => 2,
+                'created_at' => now(),
+            ],
+        ];
 
         Subjects::insert($data);
     }
