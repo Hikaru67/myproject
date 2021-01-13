@@ -1,7 +1,7 @@
 <?php
 
 use App\Course_rqs;
-use App\User;
+use App\Users;
 use Illuminate\Database\Seeder;
 
 class CourseRqsSeeder extends Seeder
@@ -13,13 +13,14 @@ class CourseRqsSeeder extends Seeder
      */
     public function run()
     {
+        $DurTime = [5400, 7200, 9000];
         $data = [];
         for($i = 1; $i <= 57; $i++){
-            if(User::find($i)['role']=='user_course'){
+            if(Users::find($i)['role']=='user_course'){
                 $data[] = [
                     'id' => $i,
                     'frequency' => rand(1,3),
-                    'durationTime' => (($a = rand(1,3))==1) ? 5400 : (($a == 2) ? 7200 : 9000),
+                    'durationTime' => $DurTime[rand(0,2)],
                     'targetTop' => rand(1,3),
                     'wishJob'=> rand(1,3),
                     'completeExercise' => rand(1,3),

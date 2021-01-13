@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Course_rqs extends Model
 {
-    use HasFactory;
+//    use HasFactory;
     public $timestamps = true;
     protected $fillable = [
         'frequency',

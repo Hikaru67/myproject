@@ -12,10 +12,10 @@ $factory->define(Users::class, function (Faker $faker) {
         'email' => $this->faker->unique()->safeEmail,
         'phoneNumber' => $this->faker->unique()->e164PhoneNumber(12),
         'job' => $this->faker->jobTitle(50),
-        'avatar' => $this->faker->imageUrl(),
+        'avatar' => AVATAR_USER_DATA[rand(0,6)],
         'facebook' => $this->faker->unique()->url(90),
         'gender' => rand(1,2),
-        'country' => $this->faker->country,
+        'country' => $this->faker->country(50),
         'role' => 'user_course',
         'status' => rand(1,2),
     ];

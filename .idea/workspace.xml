@@ -2,16 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be91ed4-2a48-4dff-b997-e05c7d8651a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/views/test.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/config_model.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/common/helper.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/listClass.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/listPoint.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/listUser.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Course_rqs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Course_rqs.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/common/constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/common/constants.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/factories/UsersFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UsersFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/ClassesSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ClassesSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/SubjectsSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SubjectsSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/CourseRqsSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CourseRqsSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/UsersSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/test.blade.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +32,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -160,7 +179,15 @@
       <updated>1610115848674</updated>
       <workItem from="1610115852041" duration="19000" />
       <workItem from="1610115872875" duration="8297000" />
-      <workItem from="1610185287877" duration="1249000" />
+      <workItem from="1610185287877" duration="3338000" />
+      <workItem from="1610244008659" duration="191000" />
+      <workItem from="1610334604718" duration="3627000" />
+      <workItem from="1610508886319" duration="5795000" />
+      <workItem from="1610532683577" duration="2451000" />
+      <workItem from="1610535153442" duration="3750000" />
+      <workItem from="1610543293964" duration="469000" />
+      <workItem from="1610543765332" duration="9000" />
+      <workItem from="1610544652058" duration="706000" />
     </task>
     <servers />
   </component>
