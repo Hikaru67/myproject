@@ -9,6 +9,7 @@
                 <th>Avatar</th>
                 <th>Email</th>
                 <th>Facebook</th>
+                <th>Ngày sinh</th>
                 <th>Giới tính</th>
                 <th>Quê quán</th>
                 <th>Quyền</th>
@@ -23,15 +24,15 @@
                         <td>{{$users->fullName}}</td>
                         <td><img src="{{$users->avatar}}" alt="" width="50px"></td>
                         <td>{{$users->email}}</td>
+                        <td>
+                            <a style="" href="{{$users->facebook}}" target="_blank">
+                                <span class="d-inline-block text-truncate" style="max-width: 150px">{{$users->facebook}}</span></a>
+                        </td>
                         <td>{{date('d/m/Y',$users->birthday)}}</td>
                         <td>{{$users->gender === 1 ? 'Nam':'Nữ'}}</td>
                         <td>{{$users->country}}</td>
                         <td>{{$users->role}}</td>
-                        @if($users->status === 1)
-                            <td style="color: green">ACTIVE</td>
-                        @elseif($users->status === 2)
-                            <td style="color: red">INACTIVE</td>
-                        @endif
+                        <td class="status-{{$users->status}}">{{getStatus($users->status)}}</td>
                         <td>{{$users->created_at}}</td>
                         <td><a href=""><i class="fas fa-edit"></i></a></td>
                     </tr>

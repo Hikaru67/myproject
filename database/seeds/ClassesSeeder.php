@@ -19,7 +19,7 @@ class ClassesSeeder extends Seeder
                 'avatar' => 'https://i.pinimg.com/originals/34/61/4d/34614d927f7c8c1c3562ef75f0471c37.jpg',
                 'status' => 1,
                 'userId' => 2,
-                'subjectId' => rand(1,5),
+                'subjectId' => 6,
                 'created_at' => now(),
             ],
             [
@@ -28,7 +28,7 @@ class ClassesSeeder extends Seeder
                 'avatar' => 'https://i.pinimg.com/originals/34/61/4d/34614d927f7c8c1c3562ef75f0471c37.jpg',
                 'status' => 1,
                 'userId' => 2,
-                'subjectId' => rand(1,5),
+                'subjectId' => 1,
                 'created_at' => now(),
             ],
             [
@@ -37,7 +37,7 @@ class ClassesSeeder extends Seeder
                 'avatar' => 'https://i.pinimg.com/originals/34/61/4d/34614d927f7c8c1c3562ef75f0471c37.jpg',
                 'status' => 1,
                 'userId' => 2,
-                'subjectId' => rand(1,5),
+                'subjectId' => 4,
                 'created_at' => now(),
             ],
             [
@@ -46,7 +46,7 @@ class ClassesSeeder extends Seeder
                 'avatar' => 'https://i.pinimg.com/originals/34/61/4d/34614d927f7c8c1c3562ef75f0471c37.jpg',
                 'status' => 1,
                 'userId' => 2,
-                'subjectId' => rand(1,5),
+                'subjectId' => 2,
                 'created_at' => now(),
             ],
             [
@@ -55,7 +55,7 @@ class ClassesSeeder extends Seeder
                 'avatar' => 'https://i.pinimg.com/originals/34/61/4d/34614d927f7c8c1c3562ef75f0471c37.jpg',
                 'status' => 1,
                 'userId' => 2,
-                'subjectId' => rand(1,5),
+                'subjectId' => 3,
                 'created_at' => now(),
             ],
             [
@@ -64,7 +64,7 @@ class ClassesSeeder extends Seeder
                 'avatar' => 'https://i.pinimg.com/originals/34/61/4d/34614d927f7c8c1c3562ef75f0471c37.jpg',
                 'status' => 2,
                 'userId' => 2,
-                'subjectId' => rand(1,5),
+                'subjectId' => 3,
                 'created_at' => now(),
             ],
         ];

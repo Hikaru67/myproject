@@ -10,4 +10,8 @@
         /*$url = current_url();*/
         return (strcmp($_SERVER['REQUEST_URI'], $menuName) === 0 ? 'active' : '');
     }
+
+    function getStatus($status){
+        return ($status==1 ? 'ACTIVE':'INACTIVE');
+    }
 ?>

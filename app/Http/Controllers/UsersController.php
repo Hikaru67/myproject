@@ -2,9 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Classes;
 use App\Users;
-use App\Subjects;
 use Illuminate\Http\Request;
 
 class UsersController extends Controller
@@ -14,10 +12,22 @@ class UsersController extends Controller
         return view('listUser', compact('list_users'));
     }
 
-    public function classManager(){
-        $list_class = Classes::join('subjects', 'classes.subjectId', '=', 'subjects.id')->select('classes.*','subjects.name as subjectName')->groupby()->get();
-        return view('listClass', compact('list_class'));
+    public function addUserAdmin(Request $request){
+        $admin = new Users();
+        $admin->fullName = $request->input('name');
+        $admin->birthday = $request->input('birthday');
+        $admin->email = $request->input('email');
+        $admin->phoneNumber = $request->input('phoneNumber');
+        $admin->job = $request->input('job');
+        $admin->avatar = $request->input('avatar');
+        $admin->facebook = $request->input('facebook');
+        $admin->gender = $request->input('gender');
+        $admin->country = $request->input('country');
+        $admin->role = $request->input('role');
+        $admin->status = $request->input('status');
+        $admin->save();
     }
+
 
     public function pointManager(){
 //        $list_users = Users::all();

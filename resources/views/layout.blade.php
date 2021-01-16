@@ -33,6 +33,9 @@
             <a class="nav-link {{checkActiceMenu('/class')}}" href="/class" >Quản lý lớp học</a>
         </li>
         <li class="nav-item" role="presentation">
+            <a class="nav-link {{checkActiceMenu('/subject')}}" href="/subject" >Quản lý môn học</a>
+        </li>
+        <li class="nav-item" role="presentation">
             <a class="nav-link {{checkActiceMenu('/point')}}" href="/point" >Quản lý điểm</a>
         </li>
     </ul>

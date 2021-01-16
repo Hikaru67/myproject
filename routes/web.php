@@ -18,5 +18,6 @@ Route::get('/', function () {
 });
 
 Route::get('/user', 'UsersController@userManager');
-Route::get('/class', 'UsersController@classManager');
+Route::get('/class', 'ClassesController@classManager');
+Route::get('/subject', 'SubjectsController@subjectManager');
 Route::get('/point', 'UsersController@pointManager');

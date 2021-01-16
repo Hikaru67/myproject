@@ -2,24 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2be91ed4-2a48-4dff-b997-e05c7d8651a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/common/config_model.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/common/helper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/listClass.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/listPoint.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/listUser.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/listSubject.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Course_rqs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Course_rqs.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Classes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Classes.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ClassesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ClassesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/SubjectsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/SubjectsController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Subjects.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Subjects.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Users.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Users.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/common/constants.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/common/constants.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/common/helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/common/helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/factories/UsersFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/UsersFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/CourseRqsSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/CourseRqsSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/ClassesSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/ClassesSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database/seeds/SubjectsSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SubjectsSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database/seeds/UsersSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/UsersSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/test.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/listClass.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/listClass.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/listUser.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/listUser.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/storage/logs/laravel.log" beforeDir="false" afterPath="$PROJECT_DIR$/storage/logs/laravel.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_files.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_files.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +163,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../shopbanhanglaravel" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -188,6 +192,10 @@
       <workItem from="1610543293964" duration="469000" />
       <workItem from="1610543765332" duration="9000" />
       <workItem from="1610544652058" duration="706000" />
+      <workItem from="1610551012734" duration="7037000" />
+      <workItem from="1610590319101" duration="1855000" />
+      <workItem from="1610597810803" duration="25000" />
+      <workItem from="1610766646590" duration="4781000" />
     </task>
     <servers />
   </component>
