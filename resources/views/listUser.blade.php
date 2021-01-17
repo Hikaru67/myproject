@@ -31,7 +31,7 @@
                         <td>{{date('d/m/Y',$users->birthday)}}</td>
                         <td>{{$users->gender === 1 ? 'Nam':'Nữ'}}</td>
                         <td>{{$users->country}}</td>
-                        <td>{{$users->role}}</td>
+                        <td>{{getRoleUser($users->role)}}</td>
                         <td class="status-{{$users->status}}">{{getStatus($users->status)}}</td>
                         <td>{{$users->created_at}}</td>
                         <td><a href=""><i class="fas fa-edit"></i></a></td>

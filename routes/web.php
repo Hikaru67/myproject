@@ -18,6 +18,13 @@ Route::get('/', function () {
 });
 
 Route::get('/user', 'UsersController@userManager');
+Route::post('/add-user', 'UsersController@addUser');
+Route::delete('/delete-user ', 'UsersController@DeleteUser');
+
 Route::get('/class', 'ClassesController@classManager');
+Route::post('/add-class', 'ClassesController@addClass');
+
 Route::get('/subject', 'SubjectsController@subjectManager');
+Route::post('/add-subject', 'SubjectsController@addSubject');
+
 Route::get('/point', 'UsersController@pointManager');

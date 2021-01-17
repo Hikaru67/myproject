@@ -20,6 +20,7 @@ use Illuminate\Notifications\Notifiable;
  * @property mixed country
  * @property mixed role
  * @property mixed status
+ * @method static create(array $array)
  */
 class Users extends Authenticatable
 {

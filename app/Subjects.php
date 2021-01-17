@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 /**
  * @method static join(string $string, string $string1, string $string2, string $string3)
+ * @method static create(array $array)
  */
 class Subjects extends Model
 {

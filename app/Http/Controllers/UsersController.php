@@ -2,13 +2,14 @@
 
 namespace App\Http\Controllers;
 
+use App\User;
 use App\Users;
 use Illuminate\Http\Request;
 
 class UsersController extends Controller
 {
     public function userManager(){
-        $list_users = Users::all();
+        $list_users = Users::all()->sortByDesc('id');
         return view('listUser', compact('list_users'));
     }
 
@@ -23,11 +24,32 @@ class UsersController extends Controller
         $admin->facebook = $request->input('facebook');
         $admin->gender = $request->input('gender');
         $admin->country = $request->input('country');
-        $admin->role = $request->input('role');
+        $admin->role = 'admin';
         $admin->status = $request->input('status');
         $admin->save();
     }
 
+    public function addUser(Request $request){
+
+        return Users::create([
+            'fullName' =>  $request->fullName,
+            'birthday' =>  $request->birthday,
+            'email' =>  $request->email,
+            'phoneNumber' =>  $request->phoneNumber,
+            'job' =>  $request->job,
+            'avatar' =>  $request->avatar,
+            'facebook' =>  $request->facebook,
+            'gender' =>  $request->gender,
+            'country' =>  $request->country,
+            'role' =>  $request->role,
+            'status' =>  $request->status,
+            'created_at' => now()
+        ]);
+    }
+
+    public function deleteUser(Request $request){
+        return User::destroy($request->id);
+    }
 
     public function pointManager(){
 //        $list_users = Users::all();

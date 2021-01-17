@@ -24,7 +24,7 @@ class CreateUsersTable extends Migration
             $table->string('facebook', 100)->unique()->nullable();;
             $table->tinyInteger('gender');
             $table->string('country', 50);
-            $table->string('role', 20);
+            $table->tinyInteger('role');
             $table->tinyInteger('status')->default(STATUS_USER['NEW']);
             $table->timestamps() ;
         });

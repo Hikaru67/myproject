@@ -14,4 +14,8 @@
     function getStatus($status){
         return ($status==1 ? 'ACTIVE':'INACTIVE');
     }
+
+    function getRoleUser($role){
+        return ($role == 1 ? 'ADMIN':'COURSE');
+    }
 ?>

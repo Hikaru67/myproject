@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 
 /**
  * @method static join(string $string, string $string1, string $string2, string $string3)
+ * @method static create(array $array)
  */
 class Classes extends Model
 {

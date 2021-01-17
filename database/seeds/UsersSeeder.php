@@ -25,9 +25,10 @@ class UsersSeeder extends Seeder
                 'facebook' => 'https://www.facebook.com/Hikaru67',
                 'gender' => GENDER['MALE'],
                 'country' => 'Hà Tĩnh',
-                'role' => 'admin',
+                'role' => ROLE_USE_ADMIN,
                 'status' => STATUS_USER["ACTIVE"],
                 'created_at' => now(),
+                'updated_at' => now(),
             ],
             [
                 'id' => 2,
@@ -40,9 +41,10 @@ class UsersSeeder extends Seeder
                 'facebook' => 'https://www.facebook.com/Hikaru68',
                 'gender' => GENDER['MALE'],
                 'country' => 'Hà Tĩnh',
-                'role' => 'admin',
+                'role' => ROLE_USE_ADMIN,
                 'status' => STATUS_USER["ACTIVE"],
                 'created_at' => now(),
+                'updated_at' => now(),
             ],
         ];
         Users::insert($data);

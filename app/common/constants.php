@@ -1,5 +1,8 @@
 <?php
 //File config hang
+define('ROLE_USE_ADMIN', 1);
+define('ROLE_USE_COURSE', 2);
+
 define('STATUS_USER',array(
     "ACTIVE" => 1,
     "INACTIVE" => 2,

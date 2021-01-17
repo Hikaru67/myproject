@@ -16,6 +16,21 @@ use Symfony\Component\HttpFoundation\Request as SymfonyRequest;
  * @method array validate(array $rules, ...$params)
  * @method array validateWithBag(string $errorBag, array $rules, ...$params)
  * @method bool hasValidSignature(bool $absolute = true)
+ * @property mixed name
+ * @property mixed description
+ * @property mixed userId
+ * @property mixed avatar
+ * @property mixed subjectId
+ * @property mixed fullName
+ * @property mixed status
+ * @property mixed role
+ * @property mixed country
+ * @property mixed gender
+ * @property mixed facebook
+ * @property mixed job
+ * @property mixed phoneNumber
+ * @property mixed email
+ * @property mixed birthday
  */
 class Request extends SymfonyRequest implements Arrayable, ArrayAccess
 {
